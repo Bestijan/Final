@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="login">2</integer>
+
+    <integer name="sing_up">0</integer>
+    <integer name="register">1</integer>
+
+    <integer name="google_map">0</integer>
+    <integer name="routeHolder">1</integer>
+
+    <integer name="image_gallery">0</integer>
+    <integer name="image_camera">1</integer>
+
+    <integer name="left_indicatior">480</integer>
+    <integer name="right_indicator">530</integer>
+
+    <integer name="start">0</integer>
+    <integer name="dest">1</integer>
+
+    <integer name="request_location">0</integer>
+
+
+    <integer name="password_size">8</integer>
+    <integer name="username_size">4</integer>
+
+    <!-- Markers -->
+
+    <integer name="dest_mark">0</integer>
+    <integer name="loc_mark">1</integer>
+
+    <!-- Markers -->
+
+    <!-- Fragments -->
+
+    <integer name="google_fragment">0</integer>
+    <integer name="route_fragment">1</integer>
+    <integer name="event_place_fragment">2</integer>
+    <integer name="tab_nums">3</integer>
+    <!-- Fragments -->
+
+    <integer name="account_updated">100</integer>
+
+    <!-- Classes -->
+
+    <integer name="CLASS_WAYPOINT">0</integer>
+    <integer name="CLASS_ROUTE">1</integer>
+    <integer name="CLASS_MY_PLACE">2</integer>
+
+    <integer name="openAddingDialog">0</integer>
+
+    <integer name="create_new_route">0</integer>
+    <integer name="newRouteDialog">1</integer>
+    <integer name="saveRouteDialog">2</integer>
+
+
+    <!-- Classes -->
+
+
+    <!-- RoutingJdAlexanderting -->
+
+    <integer name="routeTypeFindRoute">0</integer>
+    <integer name="routeTypeReroute">1</integer>
+
+
+    <integer name="tolerance">20</integer>
+
+    <integer name="angle">45</integer>
+    <integer name="angleInc">45</integer>
+    <integer name="maxAngle">360</integer>
+
+    <integer name="distance">200</integer>
+    <integer name="distanceInc">100</integer>
+    <integer name="maxDistance">1000</integer>
+
+    <!-- RoutingJdAlexanderting -->
+
+</resources>

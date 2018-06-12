@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/icons8_globe"
+        android:title="@string/title_map" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/icons8_route"
+        android:title="@string/title_routes" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/my_places"
+        android:title="@string/title_my_locations" />
+
+</menu>

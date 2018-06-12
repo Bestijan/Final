@@ -1,0 +1,446 @@
+<resources>
+
+    <!-- OK/Cancel -->
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- OK/Cancel -->
+
+    <!-- View pager -->
+
+    <string name="title_close">Close the app</string>
+    <string name="messagge_close">Do you want to close the app?</string>
+
+    <!-- View pager -->
+
+    <!-- Service strings -->
+
+    <!--
+    <string name="send_token">/server/fcm/fcm_insert.php</string>
+    <string name="send_notification">/server/fcm/send_notification.php</string>
+    <string name="send_user_data">/server/register/register.php</string>
+    <string name="receive_user_data">/server/sign_in/sign_in.php</string>
+    <string name="upload_event_place">/server/upload_event_place/upload_event_place.php</string>
+    <string name="get_event_place">/server/get_event_place/get_event_place.php</string>
+    <string name="save_route">/server/save_route/save_route.php</string>
+    <string name="get_route">/server/get_route/get_route.php</string>
+    <string name="get_my_places">/server/get_my_places/get_my_places.php</string>
+    <string name="delete_my_place">/server/delete_my_place/delete_my_place.php</string>
+    <string name="delete_route">/server/delete_route/delete_route.php</string>
+    <string name="delete_waypoint">/server/delete_my_place/delete_my_place.php</string>
+    <string name="delete_account">/server/delete_account/delete_account.php</string>
+    <string name="update_account">/server/update_account/update_account.php</string>
+    <string name="ip">http://192.168.1.5:8080</string>
+    -->
+
+
+    <string name="send_token">/fcm/fcm_insert.php</string>
+    <string name="send_notification">/fcm/send_notification.php</string>
+    <string name="send_user_data">/register/register.php</string>
+    <string name="receive_user_data">/sign_in/sign_in.php</string>
+    <string name="upload_event_place">/upload_event_place/upload_event_place.php</string>
+    <string name="get_event_place">/get_event_place/get_event_place.php</string>
+    <string name="save_route">/save_route/save_route.php</string>
+    <string name="get_route">/get_route/get_route.php</string>
+    <string name="get_my_places">/get_my_places/get_my_places.php</string>
+    <string name="delete_my_place">/delete_my_place/delete_my_place.php</string>
+    <string name="delete_route">/delete_route/delete_route.php</string>
+    <string name="delete_waypoint">/delete_my_place/delete_my_place.php</string>
+    <string name="delete_account">/delete_account/delete_account.php</string>
+    <string name="update_account">/update_account/update_account.php</string>
+    <string name="ip">http://traffic-helper-traffic-helper-server.7e14.starter-us-west-2.openshiftapps.com</string>
+
+    <string name="roads">https://roads.googleapis.com/v1/nearestRoads?</string>
+    <!-- Service strings -->
+
+    <!-- Photo selection -->
+
+    <string name="photo_action_title">Chose action</string>
+    <string name="photo_action_messagge">Select profile photo</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+
+    <!-- Photo selection -->
+
+    <!-- Logout -->
+
+    <string name="logout_title">Account</string>
+    <string name="logout_messagge">Set up account or logout</string>
+    <string name="logout_button_ok">Logout</string>
+    <string name="logout_button_cancel">Cancel</string>
+    <string name="logout_button">Logout</string>
+    <string name="setup_button">Set up</string>
+
+    <!-- Logout -->
+
+    <!-- Delete account -->
+
+    <string name="delete_title">Delete account</string>
+    <string name="delete_message">Do you want to delete account?</string>
+    <string name="delete">Delete</string>
+
+    <!-- Delete account -->
+
+    <!-- Save route -->
+
+    <string name="save_route_title">Save route</string>
+    <string name="save_route_messagge">Do you want to save route?</string>
+
+    <!-- Save route -->
+
+    <!-- Error -->
+
+    <string name="check_parameters_length">Check parameters length</string>
+    <string name="not_enough_parameters">Not enough parameters</string>
+    <string name="user_already_exists">User with the same username already exists</string>
+    <string name="does_not_exists">does_not_exists</string>
+    <string name="user_does_not_exists">User does not exists</string>
+    <string name="connection_failed">Connection with database failed</string>
+    <string name="server_error">Server error</string>
+    <string name="connection_error">Connection error</string>
+    <string name="connection_error_or">Connection error or wrong server IP address</string>
+    <string name="query_error">Insert query error</string>
+    <string name="volley_error">An error occured please try again</string>
+    <string name="not_enough_waypoints">Not enough waypoints</string>
+
+    <!-- Error -->
+
+    <!-- Sign up and register -->
+
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="pic">pic</string>
+    <string name="result">result</string>
+    <string name="id">id</string>
+    <string name="sign_in">sign_in</string>
+    <string name="register">register</string>
+    <string name="parameters_error">Parameters error</string>
+    <string name="parameters_error_result">parameters_error</string>
+    <string name="title_connection">Establishing connection</string>
+    <string name="connecting">Connection....</string>
+    <string name="usernamePic">usernamePic</string>
+
+    <!-- Sign up and register -->
+
+    <string name="app_name">Traffic helper</string>
+    <string name="title_map">Map</string>
+    <string name="title_routes">Routes</string>
+    <string name="title_my_locations">My locations</string>
+
+    <string name="title_activity_login">Login</string>
+
+    <string name="new_route_dialog_title">New routeHolder</string>
+    <string name="new_route_dialog_messagge">Please choose new routeHolder destination</string>
+    <string name="new_route_dialog_possitive_button">Choose destination</string>
+    <string name="new_route_dialog_negative_button">Cancel</string>
+
+    <!--  VolleyHttpHelper send event -->
+
+    <string name="pe">pe</string>
+    <string name="name">name</string>
+    <string name="mi">mi</string>
+    <string name="lat">lat</string>
+    <string name="lon">lon</string>
+
+    <string name="distance">distance</string>
+    <string name="names">names</string>
+    <string name="lat_s">lat_s</string>
+    <string name="lon_s">lon_s</string>
+    <string name="lat_d">lat_d</string>
+    <string name="lon_d">lon_d</string>
+    <string name="markers">markers</string>
+    <string name="place_events">place_events</string>
+    <string name="topic">topic</string>
+    <string name="token">token</string>
+    <string name="new_username">new_username</string>
+
+
+    <!--  VolleyHttpHelper send event -->
+
+    <!-- Result -->
+
+    <string name="already_exists">already_exists</string>
+    <string name="ok_result">ok</string>
+    <string name="no_results">No results!</string>
+
+    <!-- Result -->
+
+    <!-- maps -->
+
+    <string name="positive">Go to settings</string>
+    <string name="negative">Cancel</string>
+    <string name="locationTitle">Location service is disabled</string>
+    <string name="locationMessage">Please go to settings and enable location service</string>
+
+    <!-- maps -->
+
+    <!-- Event send -->
+    <string name="send_event">Send event</string>
+    <string name="send_place">Send place</string>
+
+    <!-- Event send -->
+
+    <!-- Route stopped -->
+
+    <string name="stop_route_title">You have reached your destination!</string>
+    <string name="stop_route_messagge">Your route is stoped</string>
+
+    <!-- Route stopped -->
+
+    <!-- Factory -->
+
+    <string name="ROUTES">routes</string>
+    <string name="MY_PLACES">my_places</string>
+    <string name="points">points</string>
+    <string name="waypoints">waypoints</string>
+
+    <!-- Factory -->
+
+    <!-- Event and place -->
+
+    <string name="event">EVENT</string>
+    <string name="place">PLACE</string>
+
+    <!-- Mark and include -->
+
+    <string name="MARK">MARK</string>
+    <string name="INCLUDE">INCLUDE</string>
+
+    <!-- Mark and include -->
+
+    <!-- Event headers -->
+
+    <string name="mark">Mark</string>
+    <string name="include">Include</string>
+    <string name="subscribe">Subscribe</string>
+
+    <!-- Event headers -->
+
+    <!-- View map ready -->
+
+    <string name="Destination">Destination</string>
+    <string name="Current_location">Current location</string>
+
+    <!-- View map ready -->
+
+    <!-- My places list view -->
+
+    <string name="name_my_places">  Name:        </string>
+    <string name="country_my_places">  Country:   </string>
+    <string name="city_my_places">  City:          </string>
+    <string name="address_my_places">  Address:   </string>
+    <string name="delete_my_places_title">Delete place/event</string>
+    <string name="delete_my_places_message"> Do you want to delete place/event?</string>
+
+    <!-- My places list view -->
+
+    <!-- My routes list view -->
+
+    <string name="delete_my_routes_title">Delete route</string>
+    <string name="delete_my_routes_message">Do you want to delete route?</string>
+
+    <!-- My routes list view -->
+
+
+    <!-- Add actions -->
+
+    <string-array name="add_actions">
+        <item>Add destination</item>
+        <item>Add event</item>
+        <item>Add place</item>
+        <item>Exit</item>
+    </string-array>
+
+    <!-- Add actions -->
+
+    <!-- Add new route -->
+
+    <string-array name="add_new_route">
+        <item>Stop route</item>
+        <item>Add waypoint</item>
+        <item>Add event</item>
+        <item>Add place</item>
+        <item>Exit</item>
+    </string-array>
+
+    <!-- Add new route -->
+
+    <!-- Start new route -->
+
+    <string-array name="start_new_route">
+        <item>Start route</item>
+        <item>Add waypoint</item>
+        <item>Add event</item>
+        <item>Add place</item>
+        <item>Exit</item>
+    </string-array>
+
+    <!-- Start new route -->
+
+    <!-- Intent extra -->
+
+    <string name="my_place_holder">myPlace</string>
+    <string name="data">data</string>
+    <!-- Intent extra -->
+
+    <!-- Image directory -->
+
+    <string name="img_dir">imageDir</string>
+    <string name="jpg">.jpg</string>
+    <string name="img_folder">image/*</string>
+
+    <!-- Image directory -->
+
+    <!-- HttpHelper -->
+
+    <string name="Waypoint">Waypoint</string>
+
+    <!-- HttpHelper -->
+
+    <!-- Firebase -->
+
+    <string name="new_place_event">New place/event added</string>
+    <string name="username_upper_case">Username</string>
+    <string name="pe_upper_case">PE</string>
+    <string name="mi_upper_case">MI</string>
+    <string name="name_upper_case">Name</string>
+    <string name="date_time">Date_time</string>
+    <string name="lat_upper_case">Lat</string>
+    <string name="lon_upper_case">Lon</string>
+
+        <!-- Dialog -->
+        <string name="new_location_unwanted_reroute">Unwanted location on your route:</string>
+        <string name="new_location_wanted_reroute">Wanted location added:</string>
+        <string name="rerouting">Do you want to reroute?</string>
+        <!-- Dialog -->
+
+    <!-- Firebase -->
+
+    <!-- Add destination or place/event dialog -->
+
+    <string name="start">Start</string>
+    <string name="destination">Destination</string>
+
+    <string name="title_choose_action">Choose action</string>
+
+    <string-array name="places">
+        <item>Nature</item>
+        <item>Park</item>
+        <item>Police</item>
+        <item>Potholes</item>
+        <item>Restaurant</item>
+    </string-array>
+
+    <string-array name="events">
+        <item>Flood</item>
+        <item>Accident</item>
+    </string-array>
+
+    <string-array name="place_mark">
+        <item>Police</item>
+        <item>Potholes</item>
+        <item>Flood</item>
+        <item>Accident</item>
+    </string-array>
+
+    <string-array name="place_include">
+        <item>Restaurant</item>
+        <item>Park</item>
+        <item>Nature</item>
+    </string-array>
+
+    <string-array name="marks_include">
+        <item>Police</item>
+        <item>Pothole</item>
+        <item>Flood</item>
+        <item>Accident</item>
+        <item>Restaurant</item>
+        <item>Park</item>
+        <item>Nature</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_google_map">GoogleMap</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+</resources>

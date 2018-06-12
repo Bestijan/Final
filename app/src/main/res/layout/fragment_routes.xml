@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fragment_background"
+    android:alpha="80"
+    tools:context="com.example.laza.afinal.Activities.MainActivity.RoutesFragment">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/routesListView">
+
+    </ListView>
+
+    <ProgressBar
+        android:id="@+id/progressBarGoogleMap"
+        style="?android:attr/progressBarStyle"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

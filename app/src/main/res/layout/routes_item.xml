@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/gradient"
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="0.3"
+        android:id="@+id/routesImageView"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="0.7"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="@string/start"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/countryStartTextView"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/cityStartTextView"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:id="@+id/addressStartTextView"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="@string/destination"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:id="@+id/countryDestTextView"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:id="@+id/cityDestTextView"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:id="@+id/addressDestTextView"/>
+
+    </LinearLayout>
+</LinearLayout>

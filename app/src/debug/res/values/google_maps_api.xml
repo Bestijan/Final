@@ -1,0 +1,31 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=C5:9E:06:22:DC:6A:69:B0:42:2E:CF:02:37:88:80:57:CC:88:EF:7E%3Bcom.example.laza.afinal
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    C5:9E:06:22:DC:6A:69:B0:42:2E:CF:02:37:88:80:57:CC:88:EF:7E
+
+    SHA-1 certificate fingerprint:
+    C5:9E:06:22:DC:6A:69:B0:42:2E:CF:02:37:88:80:57:CC:88:EF:7E
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+
+    <string name="api_key">AIzaSyCgO9lSm4B-gPZbMSt-ntbsFmw1aNREeE8</string>
+    <!--<string name="directions">AIzaSyBZos6kt_P7VqBLwRgIDXkIff9O6GsJoWk</string> -->
+    <!-- <string name="roads_api">AIzaSyBaVSbz7u4TqpkZcNqVxbpFpv5yqwoeUJc</string> -->
+    <string name="roads_api">AIzaSyDXoM27s-lBZqlAfO_N9NBAlfpOJPAYxc4</string>
+    <string name="directions">AIzaSyAV_U4Yr2nRaMco-qsx1MUqkt2Vp9C-9j8</string>
+
+    <string name="map_quest_api">q8MtXkJd9aBRvJfwDoqK179vC5v4MedA</string>
+</resources>

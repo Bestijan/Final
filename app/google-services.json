@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "834213010541",
+    "firebase_url": "https://finalexam-184511.firebaseio.com",
+    "project_id": "finalexam-184511",
+    "storage_bucket": "finalexam-184511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834213010541:android:dae6a92f75e20d9f",
+        "android_client_info": {
+          "package_name": "com.example.laza.afinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834213010541-qhs1ovgj1vqemn0s2nj9r6scjsnva0kr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1luFgC1biy2uJ9Qk5svW24LpEOdguFto"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
