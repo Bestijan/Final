@@ -224,15 +224,7 @@ public class MapReady implements OnMapReadyCallback  {
         marker.setTitle(MyPlace.getName());
         marker.showInfoWindow();
 
-        if (MyPlace.getName().equals(context.getResources().getString(R.string.Waypoint))){
-            marker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE));
-        }
-        else if (MyPlace.getMI().equals(context.getResources().getString(R.string.MARK))){
-            marker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
-        }
-        else if (MyPlace.getMI().equals(context.getResources().getString(R.string.INCLUDE))){
-            marker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE));
-        }
+        setMarkerIcon(MyPlace.getName(), marker);
         markers.add(marker);
     }
 
@@ -248,7 +240,8 @@ public class MapReady implements OnMapReadyCallback  {
                 .position(new LatLng(location.latitude, location.longitude))
                 .title(event));
 
-        this.lastMarker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
+
+       this.setMarkerIcon(event, this.lastMarker);
 
         if (!this.mediatorMap.getRouteStarted())
         googleMap.animateCamera(CameraUpdateFactory.newCameraPosition
@@ -279,13 +272,7 @@ public class MapReady implements OnMapReadyCallback  {
                 .position(location)
                 .title(place));
 
-        if (place.equals(context.getResources().getString(R.string.Waypoint)))
-            this.lastMarker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE));
-        else if (mi.equals(context.getResources().getString(R.string.MARK)))
-            this.lastMarker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
-        else this.lastMarker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE));
-
-
+        this.setMarkerIcon(place, this.lastMarker);
 
         if (!this.mediatorMap.getRouteStarted())
         googleMap.animateCamera(CameraUpdateFactory.newCameraPosition
@@ -321,13 +308,7 @@ public class MapReady implements OnMapReadyCallback  {
 
         this.markerDestination.setTag(myPlace);
 
-        if (myPlace.getName().equals(context.getResources().getString(R.string.Waypoint)))
-            this.markerDestination.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE));
-        else {
-            if (myPlace.getMI().equals(context.getResources().getString(R.string.MARK)))
-                this.markerDestination.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
-            else this.markerDestination.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE));
-        }
+        setMarkerIcon(myPlace.getName(), this.markerDestination);
 
         googleMap.animateCamera(CameraUpdateFactory.newCameraPosition
                 (new CameraPosition.Builder().target(new LatLng(myPlace.getLat(), myPlace.getLon()))
@@ -342,6 +323,41 @@ public class MapReady implements OnMapReadyCallback  {
 
         }
     }
+
+    void setMarkerIcon(String marker_name, Marker marker){
+        if (marker_name.equals("Restaurant")) {
+            marker.setIcon(BitmapDescriptorFactory
+                    .fromBitmap(this.bitmapResources.getMarkerBitmap("Restaurant")));
+        }
+        else if (marker_name.equals("Accident")) {
+            marker.setIcon(BitmapDescriptorFactory
+                    .fromBitmap(this.bitmapResources.getMarkerBitmap("Accident")));
+        }
+        else if (marker_name.equals("Flood")) {
+            marker.setIcon(BitmapDescriptorFactory
+                    .fromBitmap(this.bitmapResources.getMarkerBitmap("Flood")));
+        }
+
+        else if (marker_name.equals("Potholes")) {
+            marker.setIcon(BitmapDescriptorFactory
+                    .fromBitmap(this.bitmapResources.getMarkerBitmap("Potholes")));
+        }
+        else if (marker_name.equals("Police")) {
+            marker.setIcon(BitmapDescriptorFactory
+                    .fromBitmap(this.bitmapResources.getMarkerBitmap("Police")));
+        }
+        else if (marker_name.equals("Park")) {
+            marker.setIcon(BitmapDescriptorFactory
+                    .fromBitmap(this.bitmapResources.getMarkerBitmap("Park")));
+        }
+        else if (marker_name.equals("Nature")) {
+            marker.setIcon(BitmapDescriptorFactory
+                    .fromBitmap(this.bitmapResources.getMarkerBitmap("Nature")));
+        }
+        else if (marker_name.equals(context.getResources().getString(R.string.Waypoint)))
+            marker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE));
+    }
+
 
     public void clearAll(){
         this.googleMap.clear();

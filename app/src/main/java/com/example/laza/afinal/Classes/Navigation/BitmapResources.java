@@ -34,6 +34,50 @@ public class BitmapResources {
         return BitmapDescriptorFactory.fromBitmap(bitmap);
     }
 
+    public Bitmap getMarkerBitmap(String markerName){
+        switch (markerName)
+        {
+            case "Restaurant":{
+                Bitmap bitmap = BitmapFactory.decodeResource(MyApplicationContext.getContext().getResources(),
+                        R.drawable.restaurant_marker);
+                return Bitmap.createScaledBitmap(bitmap, 70, 70, false);
+            }
+            case "Accident":{
+                Bitmap bitmap = BitmapFactory.decodeResource(MyApplicationContext.getContext().getResources(),
+                        R.drawable.accident_marker);
+                return Bitmap.createScaledBitmap(bitmap, 70, 70, false);
+            }
+            case "Flood":{
+                Bitmap bitmap = BitmapFactory.decodeResource(MyApplicationContext.getContext().getResources(),
+                        R.drawable.flood_marker);
+                return Bitmap.createScaledBitmap(bitmap, 80, 70, false);
+            }
+            case "Police":{
+                Bitmap bitmap = BitmapFactory.decodeResource(MyApplicationContext.getContext().getResources(),
+                        R.drawable.police_marker);
+                return Bitmap.createScaledBitmap(bitmap, 70, 70, false);
+            }
+            case "Nature":{
+                Bitmap bitmap = BitmapFactory.decodeResource(MyApplicationContext.getContext().getResources(),
+                        R.drawable.nature_marker);
+                return Bitmap.createScaledBitmap(bitmap, 80, 70, false);
+            }
+            case "Park":{
+                Bitmap bitmap = BitmapFactory.decodeResource(MyApplicationContext.getContext().getResources(),
+                        R.drawable.park_marker);
+                return Bitmap.createScaledBitmap(bitmap, 80, 70, false);
+            }
+            case "Potholes":{
+                Bitmap bitmap = BitmapFactory.decodeResource(MyApplicationContext.getContext().getResources(),
+                        R.drawable.potholes_marker);
+                return Bitmap.createScaledBitmap(bitmap, 80, 70, false);
+            }
+        }
+        Bitmap bitmap = BitmapFactory.decodeResource(MyApplicationContext.getContext().getResources(),
+                R.drawable.circle_destination);
+        return Bitmap.createScaledBitmap(bitmap, 60, 60, false);
+    }
+
     public Bitmap getDestLocB(){
         Bitmap bitmap = BitmapFactory.decodeResource(MyApplicationContext.getContext().getResources(),
                 R.drawable.circle_destination);
